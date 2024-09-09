@@ -32,7 +32,7 @@ class _HomeState extends State<Home> {
           Center(
             child: InkWell(
               onTap: () =>
-                  launchURL(Uri.parse('https://www.google.com'), false),
+                  launchURL(Uri.parse('https:browser link........'), false),
               child: Container(
                 width: 300,
                 height: 50,
@@ -50,7 +50,7 @@ class _HomeState extends State<Home> {
           ),
           SizedBox(height: 30),
           InkWell(
-            onTap: () => launchURL(Uri.parse('https://wa.link/ie69tt)') ,false),
+            onTap: () => launchURL(Uri.parse('https:whatsapp chat link......)') ,false),
             child: Container(
               width: 300,
               height: 50,
@@ -85,7 +85,7 @@ class _HomeState extends State<Home> {
           SizedBox(height: 30),
           InkWell(
             onTap: () => launchURL(
-                Uri.parse('mailto:rahulrajan09022003@gmail.com'), false),
+                Uri.parse('mailto:examplemail@gmail.com'), false),
             child: Container(
               width: 300,
               height: 50,
@@ -102,7 +102,7 @@ class _HomeState extends State<Home> {
           ),
           SizedBox(height: 30),
           InkWell(
-            onTap: () => launchURL(Uri.parse('https://www.youtube.com/watch?v=AsnVb0aS4cE'), false),
+            onTap: () => launchURL(Uri.parse('https:youtube link .......'), false),
             child: Container(
               width: 300,
               height: 50,
